@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .welcome-message {
+        background-color: antiquewhite;
+        height: 500px;
+      }
+
+      @media only screen and (max-width: 688px) {
+        .welcome-message {
+          background-color: blue;
+          text-align: center;
+        }
+      }
+
+      @media only screen and (min-width: 689px) and (max-width: 992px) {
+        .welcome-message {
+          background-color: cadetblue;
+          text-align: end;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="welcome-message">
+      <h1>welcome to our website</h1>
+    </div>
+  </body>
+</html>
